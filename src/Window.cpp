@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <cstdlib> // EXIT_SUCCESS || EXIT_FAILURE
 #include "Window.h"
 
 namespace {

@@ -5,10 +5,10 @@
 #include "QueueFlags.h"
 #include "SwapChain.h"
 
+class Instance;
 class SwapChain;
 class Device {
     friend class Instance;
-
 public:
     SwapChain* CreateSwapChain(VkSurfaceKHR surface, unsigned int numBuffers);
     Instance* GetInstance();

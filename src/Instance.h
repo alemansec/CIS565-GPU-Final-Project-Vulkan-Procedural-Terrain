@@ -9,7 +9,6 @@
 extern const bool ENABLE_VALIDATION;
 
 class Instance {
-
 public:
     Instance() = delete;
     Instance(const char* applicationName, unsigned int additionalExtensionCount = 0, const char** additionalExtensions = nullptr);

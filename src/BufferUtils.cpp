@@ -1,3 +1,5 @@
+#include <string.h> // memcpy
+
 #include "BufferUtils.h"
 #include "Instance.h"
 
